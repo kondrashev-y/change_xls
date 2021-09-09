@@ -16,7 +16,7 @@ class App(tk.Tk):
         self.style.configure('BldLbl.TLabel', font=('Helvetica', 13, 'bold'), padding=(0, 10, 0, 10))
         self.style.configure('FrLbl.TLabel', padding=(20, 0, 0, 0))
         self['background'] = '#EBEBEB'
-        self.geometry('800x250')
+        self.geometry('400x250')
         self.resizable(width=False, height=False)
         # self.conf = {'padx': (5, 10), 'pady': 5}
         # self.bold_font = 'Helvetica 13 bold'
